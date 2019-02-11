@@ -1,0 +1,7 @@
+oc rsh dc/inventory cat /app/config/project-defaults.yml
+
+oc rsh dc/inventory-postgresql
+psql -U inventory -c "select * from inventory"
+
+oc rsh dc/catalog-postgresql
+psql -U catalog -c "select item_id, name, price from product"
