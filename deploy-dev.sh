@@ -15,7 +15,7 @@ cd ../gateway-vertx
 mvn fabric8:deploy
 
 echo "Deploying frontend"
-oc new-app nodejs~https://github.com/openshift-labs/cloud-native-labs.git#ocp-3.10 \
+oc new-app nodejs:8~https://github.com/openshift-labs/cloud-native-labs.git#ocp-3.10 \
         --context-dir=web-nodejs \
         --name=web
 oc expose svc/web
