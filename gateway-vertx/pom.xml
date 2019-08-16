@@ -17,6 +17,7 @@
         <vertx.verticle>com.redhat.cloudnative.gateway.GatewayVerticle</vertx.verticle>
         <fabric8.maven.plugin.version>3.5.40</fabric8.maven.plugin.version>
         <slf4j.version>1.7.21</slf4j.version>
+        <fabric8.namespace>coolstore</fabric8.namespace>
     </properties>
 
     <repositories>
