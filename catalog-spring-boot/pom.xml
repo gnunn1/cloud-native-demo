@@ -14,7 +14,7 @@
     <spring.k8s.bom.version>0.2.0.RELEASE</spring.k8s.bom.version>
     <fabric8.maven.plugin.version>3.5.40</fabric8.maven.plugin.version>
     <fabric8.namespace>coolstore</fabric8.namespace>
-    <postgresql.version>42.2.4</postgresql.version>
+    <postgresql.version>42.3.3</postgresql.version>
   </properties>
   <repositories>
     <repository>
